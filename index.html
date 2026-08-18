@@ -132,6 +132,7 @@ h2.title em{font-style:italic;color:var(--orange);}
 .final h2{font-family:'EB Garamond',serif;font-weight:800;font-size:clamp(2.1rem,4.4vw,3.4rem);line-height:1.08;margin-bottom:1.1rem;max-width:22ch;margin-left:auto;margin-right:auto;}
 .final h2 em{font-style:italic;color:var(--orange);}
 .final .lead{margin-left:auto;margin-right:auto;text-align:center;}
+.calendly-wrap{max-width:920px;margin:2.5rem auto 0;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.28);}
 .faq{max-width:800px;margin:3.5rem auto 0;text-align:left;}
 .faq details{border-bottom:1px solid var(--line-navy);padding:1.3rem 0;}
 .faq summary{font-size:16px;font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:1rem;color:var(--cream);}
@@ -286,7 +287,11 @@ h2.title em{font-style:italic;color:var(--orange);}
   <div class="wrap">
     <h2>Stop paying for work that doesn't deliver outcomes. <em>Start here.</em></h2>
     <p class="lead">Apply, and we'll run a free audit. Pick one or two departments, and we'll hand you a 90-day roadmap of exactly what we'd automate first.</p>
-    <a href="#" class="btn">Apply to work with us</a>
+    <div class="calendly-wrap">
+      <!-- Calendly inline widget begin -->
+      <div class="calendly-inline-widget" data-url="https://calendly.com/d/cpnd-2yd-s89/find-new-talent-with-scale-army?hide_event_type_details=1&hide_gdpr_banner=1&text_color=162b3e&primary_color=ff6432" style="min-width:320px;height:700px;"></div>
+      <!-- Calendly inline widget end -->
+    </div>
 
     <div class="faq">
       <details><summary>Will it work with our tools?</summary><p>Yes. We build on what you already run. No switching, no new platform to learn.</p></details>
@@ -305,5 +310,6 @@ h2.title em{font-style:italic;color:var(--orange);}
   </div>
 </footer>
 
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 </body>
 </html>
